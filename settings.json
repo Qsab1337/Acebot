@@ -1,0 +1,12 @@
+{
+  "theme": "dark",
+  "opacity": 93,
+  "save_screenshots": false,
+  "hotkeys": {
+    "add_screenshot": "Ctrl+Alt+A",
+    "analyze_multiple": "Ctrl+Alt+M",
+    "clear_all": "Ctrl+Alt+C",
+    "settings": "Ctrl+Alt+S",
+    "exit": "Ctrl+Alt+X"
+  }
+}
