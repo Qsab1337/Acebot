@@ -1,0 +1,37 @@
+{
+    "version": "1.0.2",
+    "type": "patch",
+    "release_date": "2024-01-15",
+    "changelog": "- Fixed Gemini API timeout issues\n- Improved OCR accuracy\n- Added screenshot debug toggle\n- Enhanced capture reliability",
+    "critical": false,
+    "min_version": "1.0.0",
+    "files": [
+        {
+            "name": "simple_gemini_provider.py",
+            "url": "https://raw.githubusercontent.com/Qsab1337/Acebot/main/simple_gemini_provider.py",
+            "sha256": "",
+            "action": "replace"
+        },
+        {
+            "name": "simple_ocr.py",
+            "url": "https://raw.githubusercontent.com/Qsab1337/Acebot/main/simple_ocr.py",
+            "sha256": "",
+            "action": "replace"
+        },
+        {
+            "name": "advanced_capture.py",
+            "url": "https://raw.githubusercontent.com/Qsab1337/Acebot/main/advanced_capture.py",
+            "sha256": "",
+            "action": "replace"
+        }
+    ],
+    "exe": {
+        "required": false,
+        "url": "",
+        "sha256": ""
+    },
+    "requirements": {
+        "python": "3.8+",
+        "packages": []
+    }
+}
