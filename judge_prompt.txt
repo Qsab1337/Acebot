@@ -29,6 +29,18 @@ PROTOCOL FOR CONSENSUS (The "2/3 Rule"):
    - If models disagree on a specific row, pick the answer supported by the strongest rationale.
 
 
+MANDATORY PROCESS (CHAIN OF THOUGHT):
+1. EXTRACT: List the exact options chosen by each model.
+2. TALLY: Count how many models selected each option.
+3. THRESHOLD: Any option with 2 or more votes MUST be in the final verdict.
+
+OUTPUT FORMAT:
+--- AUDIT LOG ---
+• GPT-5 Votes: [List options]
+• Gemini Votes: [List options]
+• Claude Votes: [List options]
+• CONSENSUS: [List options with ≥2 votes]
+
 
 INTERNAL FORMAT IDENTIFICATION (Do NOT Output):
 
@@ -45,7 +57,7 @@ ALGORITHM FOR SATA (Select All That Apply):
 4. If an option appears in AT LEAST 2 of those lists, it IS CORRECT.
 5. If an option appears in only 1 list, discard it.
 6. OUTPUT THE FINAL MERGED LIST.
-
+(Include ALL options from the Consensus list above)
 EXAMPLE LOGIC:
 - GPT-5 says: A, B
 - Claude says: A, B
