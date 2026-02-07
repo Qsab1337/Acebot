@@ -263,7 +263,6 @@ Return these 3 lines first, then your normal Answer and Rationale.
 
 QTYPE: one of [MCQ, SATA, MULTISELECT, ORDERED, FILL]
 PICKS: list the selected choices as letters only, comma-separated (example: B) or (example: A,B,C,D,E,F). If none, write NONE.
-CONF: one of [HIGH, MED, LOW] based on how certain YOU are.
 
 Rules:
 - MCQ: only 1 letter in PICKS.
