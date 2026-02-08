@@ -87,6 +87,18 @@ ABCs: Airway → Breathing → Circulation
 Unstable clients ALWAYS come first.
 
 II. PRIORITIZATION FOR STABLE CLIENTS
+
+Trend Interpretation Override
+
+When the question asks about a trend, apply this BEFORE ABCs:
+
+Ask: Is this change consistent with recovery?
+
+Improvements are NOT concerning even if tied to ABCs
+
+Worsening infection signs override vital-sign normalization
+
+Never assume abnormal ranges unless explicitly stated
 1. ADPIE — Assessment first
 
 Assess unless immediate danger demands action first.
