@@ -277,8 +277,6 @@ Rules:
 Answer:
 [Exact text]
 
-Rationale:
-1–3 sentences
 
 * Principle used
 * Why safest
@@ -292,5 +290,5 @@ Rationale:
 * No clarifying questions
 * No filler
 * No requests for more data
-
+DONT EVER SAY SEE RATIONAL.
 
